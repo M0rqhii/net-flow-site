@@ -19,94 +19,94 @@ export const clientTrail = [
   "Hosting i opieka",
 ];
 
-export const problemSignals = [
+export const heroMetrics = [
   {
-    title: "Za duzo pluginow, za malo kontroli",
-    description:
-      "Porzadkujemy architekture strony i sklepu tak, zeby projekt nie byl uzalezniony od przypadkowego zestawu wtyczek i obejsc.",
+    label: "Delivery model",
+    value: "art direction -> build -> operations",
   },
   {
-    title: "Za duzo recznej roboty po wdrozeniu",
-    description:
-      "Automatyzacje, masowe operacje i sensowny CMS maja sprawic, ze zespol pracuje szybciej, a nie klika wiecej.",
+    label: "Operating focus",
+    value: "performance, conversion, control",
   },
   {
-    title: "Za malo odpowiedzialnosci po stronie wykonawcy",
-    description:
-      "Bierzemy na siebie design, wdrozenie, integracje i utrzymanie. Jeden partner, jeden standard, mniej chaosu operacyjnego.",
+    label: "Built around",
+    value: "WordPress, WooCommerce, Next.js, custom systems",
   },
 ];
 
-export const capabilities = [
+export const manifestoNotes = [
   {
-    eyebrow: "Web / brand",
-    title: "Strony firmowe i landing pages",
+    title: "Luxury feel, zero theatre",
     description:
-      "Projektujemy i wdrazamy strony, ktore sa szybkie, przekonujace i gotowe do sprzedazy albo pozyskiwania leadow.",
+      "Design ma wygladac drogo, ale nie moze byc pustym efektem. Kazdy ekran ma wspierac sprzedaz, pozycjonowanie albo kontrole procesu po starcie.",
+  },
+  {
+    title: "One standard instead of ten excuses",
+    description:
+      "Net-Flow laczy art direction, wdrozenie, integracje i maintenance w jednej odpowiedzialnosci. Mniej pluginowego chaosu, mniej przerzucania winy.",
+  },
+  {
+    title: "Operational power is part of the product",
+    description:
+      "Strona ma nie tylko dobrze wygladac. Ma tez wytrzymac katalog, kampanie, content ops, role, uprawnienia i dalszy rozwoj bez rozpadania sie po kwartale.",
+  },
+];
+
+export const serviceBands = [
+  {
+    id: "01",
+    eyebrow: "Brand surfaces",
+    title: "Company websites that feel bespoke from the first fold.",
+    description:
+      "Projektujemy strony firmowe i landing pages, ktore od razu ustawiaja marke wyzej. To nie jest skladanie klockow pod placeholder content, tylko spojny kierunek wizualny, typografia i narrativa sprzedazowa.",
     bullets: [
-      "custom art direction i UI",
-      "struktura pod konwersje",
-      "performance i SEO w standardzie",
+      "custom art direction i niegeneryczny hero",
+      "architektura informacji pod conversion path",
+      "copy i UX writing bez agencyjnej waty",
+    ],
+    supportTitle: "W tej warstwie domykamy",
+    support: [
+      "landing pages, strony firmowe, premium one-pagery",
+      "UX, content structure i kampanijne flow",
+      "branding, key visuals i assety pod social / ads",
     ],
     tone: "blue",
   },
   {
-    eyebrow: "Commerce",
-    title: "WooCommerce bez chaosu operacyjnego",
+    id: "02",
+    eyebrow: "Commerce and automation",
+    title: "E-commerce z porzadkiem danych, logika promocji i systemem po zakupie.",
     description:
-      "Sklepy traktujemy jak system operacyjny. Liczy sie katalog, logika promocji, workflow i przewidywalnosc dzialania.",
+      "Sklep traktujemy jak system operacyjny. Nie tylko wyglad, ale tez katalog, taksonomie, bulk operations, integracje i warstwa akcji po zakupie maja byc zaprojektowane, a nie doszyte na koncu.",
     bullets: [
-      "budowa i przebudowy sklepow",
-      "porzadkowanie danych i taksonomii",
-      "promocje, gratisy i bulk operations",
+      "WooCommerce build / rebuild / cleanup",
+      "promocje, gratisy, kupony i price logic",
+      "webhooki, Stripe i procesy po zakupie",
+    ],
+    supportTitle: "Tu Net-Flow dowozi",
+    support: [
+      "porzadek w katalogu i masowe operacje",
+      "custom pluginy i automatyzacje pod sklep",
+      "integracje z CRM, formularzami i zewnetrznymi systemami",
     ],
     tone: "green",
   },
   {
-    eyebrow: "Automation",
-    title: "Integracje i automatyzacje",
+    id: "03",
+    eyebrow: "Control layer",
+    title: "Hosting, security i maintenance, ktore zamykaja projekt w jednym standardzie.",
     description:
-      "Spinamy platnosci, webhooki, CRM-y, formularze i procesy po zakupie w jedna warstwe, ktora dziala powtarzalnie.",
+      "High-end nie konczy sie na publikacji. Monitoring, backupy, hardening, logi, aktualizacje i dalszy rozwoj musza dzialac w tym samym standardzie co design i frontend.",
     bullets: [
-      "Stripe i webhooks",
-      "JSON API i custom logic",
-      "akcje po zakupie i procesy wewnetrzne",
+      "maintenance, SLA i predictable rollouts",
+      "backupy, monitoring, hardening i access control",
+      "kierunek produktowy rozwijany w NetFlow-CMS",
     ],
-    tone: "blue",
-  },
-  {
-    eyebrow: "Ops",
-    title: "Hosting, utrzymanie i bezpieczenstwo",
-    description:
-      "Mamy dowozic spokoj operacyjny: monitoring, backupy, hardening i przewidywalny proces wdrozeniowy.",
-    bullets: [
-      "opieka abonamentowa i SLA",
-      "aktualizacje, backupy, monitoring",
-      "stabilnosc bez nocnego gaszenia pozarow",
-    ],
-    tone: "warm",
-  },
-  {
-    eyebrow: "Experience",
-    title: "UX, content i warstwa sprzedazowa",
-    description:
-      "Nie robimy ladnych makiet dla sportu. Interfejs i tresci maja prowadzic uzytkownika do konkretnej decyzji.",
-    bullets: [
-      "architektura informacji",
-      "copy i UX writing bez waty",
-      "materialy pod kampanie i SEO",
-    ],
-    tone: "green",
-  },
-  {
-    eyebrow: "Identity",
-    title: "Branding i assety wizualne",
-    description:
-      "Od logo po grafiki sprzedazowe. Jezeli marka ma wygladac drogo, wszystko musi mowic jednym jezykiem.",
-    bullets: [
-      "key visual i identyfikacja",
-      "grafiki pod WWW i social media",
-      "spojny standard marki na wszystkich touchpointach",
+    supportTitle: "Efekt dla klienta",
+    support: [
+      "mniej paneli, mniej pluginow, mniej chaosu",
+      "szybsze wdrozenia i wyzsza kontrola po starcie",
+      "jedna odpowiedzialnosc za design, build i operations",
     ],
     tone: "warm",
   },
@@ -120,6 +120,11 @@ export const caseStudies = [
       "Sklep odziezowy zbudowany od zera: wyglad, struktura, wdrozenie WooCommerce i regularna obsluga contentu w jednym standardzie.",
     impact:
       "Sprawny storefront, spojne tresci i operacje marketingowe, ktore nie wygladaja jak doszyte po fakcie.",
+    deliverables: [
+      "brand-facing storefront i custom UI direction",
+      "content ops i publikacja bez chaosu",
+      "social i marketing support pod sprzedaz",
+    ],
     tags: ["WooCommerce", "Design", "Content ops", "Social media"],
     url: "https://fajnaszafa.pl",
     tone: "blue",
@@ -131,6 +136,11 @@ export const caseStudies = [
       "Duzy sklep WooCommerce wymagajacy porzadku w danych, masowych operacji i narzedzi do szybszej pracy na asortymencie.",
     impact:
       "Mniej chaosu w katalogu, lepsza higiena SEO i realnie szybsze operacje na tysiacach produktow.",
+    deliverables: [
+      "custom tooling do bulk changes",
+      "cleanup taksonomii, nazw i struktur",
+      "workflow pod duzy katalog i SEO hygiene",
+    ],
     tags: ["Custom plugins", "Bulk operations", "SEO hygiene", "WooCommerce"],
     url: "https://okazjaumarii.pl/",
     tone: "green",
@@ -142,6 +152,11 @@ export const caseStudies = [
       "Platforma edukacyjna oparta o Tutor LMS, Google Calendar i logike umawiania lekcji z rozdzieleniem rol nauczyciel-uczen.",
     impact:
       "Spojny proces rezerwacji i prowadzenia lekcji, bez recznego spinania kilku narzedzi po stronie administracji.",
+    deliverables: [
+      "booking flow i role permissions",
+      "Google Calendar integration",
+      "komunikacja i process layer dla platformy",
+    ],
     tags: ["Tutor LMS", "Integrations", "Booking flow", "Permissions"],
     url: "https://votillo.pl",
     tone: "warm",
@@ -153,9 +168,29 @@ export const caseStudies = [
       "Natywny szablon BIP z dedykowanym CMS-em, kontrola dostepu i logami zmian przygotowany pod standardy urzedowe.",
     impact:
       "Szybka redakcja tresci przy zachowaniu audytowalnosci, porzadku i bezpieczenstwa w codziennej pracy.",
+    deliverables: [
+      "dedykowany CMS i controlled publishing",
+      "audit logs i access whitelists",
+      "template gotowy pod standard jednostek publicznych",
+    ],
     tags: ["BIP", "CMS", "Audit logs", "Access control"],
     url: "https://bip.net-flow.pl/",
     tone: "blue",
+  },
+];
+
+export const cmsSignals = [
+  {
+    label: "What it replaces",
+    value: "plugin pile-ups, scattered dashboards and blame ping-pong",
+  },
+  {
+    label: "Core mode",
+    value: "CMS + builder + hosting + ops control in one product",
+  },
+  {
+    label: "Ready for",
+    value: "multi-site operations, tenant isolation, RBAC and log-driven control",
   },
 ];
 
