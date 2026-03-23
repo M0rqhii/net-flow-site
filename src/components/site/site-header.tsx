@@ -26,7 +26,7 @@ export function SiteHeader() {
                   Net-Flow
                 </p>
                 <p className="font-mono text-[0.62rem] uppercase tracking-[0.26em] text-white/46">
-                  Digital systems
+                  Premium web systems
                 </p>
               </div>
             </a>
@@ -55,7 +55,7 @@ export function SiteHeader() {
                 type="button"
                 onClick={() => setIsOpen(true)}
                 className="inline-flex h-11 w-11 items-center justify-center rounded-full border border-white/12 text-white/78 hover:border-white/22 hover:text-white lg:hidden"
-                aria-label="Open menu"
+                aria-label="Otw\u00f3rz menu"
               >
                 <Menu size={18} />
               </button>
@@ -92,7 +92,7 @@ export function SiteHeader() {
                   type="button"
                   onClick={() => setIsOpen(false)}
                   className="inline-flex h-11 w-11 items-center justify-center rounded-full border border-white/10 text-white/76"
-                  aria-label="Close menu"
+                  aria-label="Zamknij menu"
                 >
                   <X size={18} />
                 </button>

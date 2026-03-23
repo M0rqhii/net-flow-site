@@ -30,6 +30,7 @@ html {
 body {
   min-height: 100vh;
   background:
+    linear-gradient(115deg, rgba(255, 255, 255, 0.015), transparent 24%),
     radial-gradient(circle at 18% 12%, rgba(20, 183, 255, 0.18), transparent 24%),
     radial-gradient(circle at 82% 16%, rgba(52, 243, 190, 0.18), transparent 20%),
     linear-gradient(180deg, #06111a 0%, #081523 42%, #06111a 100%);
@@ -84,6 +85,20 @@ button {
     radial-gradient(circle at 50% 100%, rgba(52, 243, 190, 0.1), transparent 30%);
   mix-blend-mode: screen;
   opacity: 0.85;
+}
+
+.page-shell::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0.12;
+  background-image:
+    radial-gradient(rgba(255, 255, 255, 0.45) 0.5px, transparent 0.5px),
+    radial-gradient(rgba(255, 255, 255, 0.3) 0.5px, transparent 0.5px);
+  background-position: 0 0, 13px 13px;
+  background-size: 26px 26px;
+  mask-image: linear-gradient(180deg, rgba(0, 0, 0, 0.4), transparent 76%);
 }
 
 .section-kicker {

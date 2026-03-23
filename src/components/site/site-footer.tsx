@@ -17,7 +17,7 @@ export function SiteFooter() {
               Net-Flow / premium web systems
             </p>
             <p className="font-display mt-5 max-w-3xl text-[2.5rem] leading-[0.96] tracking-[-0.05em] text-white sm:text-[3.2rem]">
-              Design, commerce i operational control zamkniete w jednym
+              Design, commerce i operational control zamkni\u0119te w jednym
               standardzie wykonania.
             </p>
             <a
@@ -74,7 +74,7 @@ export function SiteFooter() {
         </div>
 
         <div className="mt-10 border-t border-white/10 pt-6 text-xs text-white/38">
-          © {new Date().getFullYear()} Net-Flow. Warszawa / remote.
+          Copyright {new Date().getFullYear()} Net-Flow. Warszawa / remote.
         </div>
       </div>
     </footer>

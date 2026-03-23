@@ -38,17 +38,17 @@ export const manifestoNotes = [
   {
     title: "Luxury feel, zero theatre",
     description:
-      "Design ma wygladac drogo, ale nie moze byc pustym efektem. Kazdy ekran ma wspierac sprzedaz, pozycjonowanie albo kontrole procesu po starcie.",
+      "Design ma wygl\u0105da\u0107 drogo, ale nie mo\u017ce by\u0107 pustym efektem. Ka\u017cdy ekran ma wspiera\u0107 sprzeda\u017c, pozycjonowanie albo kontrol\u0119 procesu po starcie.",
   },
   {
     title: "One standard instead of ten excuses",
     description:
-      "Net-Flow laczy art direction, wdrozenie, integracje i maintenance w jednej odpowiedzialnosci. Mniej pluginowego chaosu, mniej przerzucania winy.",
+      "Net-Flow \u0142\u0105czy art direction, wdro\u017cenie, integracje i maintenance w jednej odpowiedzialno\u015bci. Mniej pluginowego chaosu, mniej przerzucania winy.",
   },
   {
     title: "Operational power is part of the product",
     description:
-      "Strona ma nie tylko dobrze wygladac. Ma tez wytrzymac katalog, kampanie, content ops, role, uprawnienia i dalszy rozwoj bez rozpadania sie po kwartale.",
+      "Strona ma nie tylko dobrze wygl\u0105da\u0107. Ma te\u017c wytrzyma\u0107 katalog, kampanie, content ops, role, uprawnienia i dalszy rozw\u00f3j bez rozpadania si\u0119 po kwartale.",
   },
 ];
 
@@ -58,7 +58,7 @@ export const serviceBands = [
     eyebrow: "Brand surfaces",
     title: "Company websites that feel bespoke from the first fold.",
     description:
-      "Projektujemy strony firmowe i landing pages, ktore od razu ustawiaja marke wyzej. To nie jest skladanie klockow pod placeholder content, tylko spojny kierunek wizualny, typografia i narrativa sprzedazowa.",
+      "Projektujemy strony firmowe i landing pages, kt\u00f3re od razu ustawiaj\u0105 mark\u0119 wy\u017cej. To nie jest sk\u0142adanie klock\u00f3w pod placeholder content, tylko sp\u00f3jny kierunek wizualny, typografia i narracja sprzeda\u017cowa.",
     bullets: [
       "custom art direction i niegeneryczny hero",
       "architektura informacji pod conversion path",
@@ -75,9 +75,9 @@ export const serviceBands = [
   {
     id: "02",
     eyebrow: "Commerce and automation",
-    title: "E-commerce z porzadkiem danych, logika promocji i systemem po zakupie.",
+    title: "E-commerce z porz\u0105dkiem danych, logik\u0105 promocji i systemem po zakupie.",
     description:
-      "Sklep traktujemy jak system operacyjny. Nie tylko wyglad, ale tez katalog, taksonomie, bulk operations, integracje i warstwa akcji po zakupie maja byc zaprojektowane, a nie doszyte na koncu.",
+      "Sklep traktujemy jak system operacyjny. Nie tylko wygl\u0105d, ale te\u017c katalog, taksonomie, bulk operations, integracje i warstwa akcji po zakupie maj\u0105 by\u0107 zaprojektowane, a nie doszyte na ko\u0144cu.",
     bullets: [
       "WooCommerce build / rebuild / cleanup",
       "promocje, gratisy, kupony i price logic",
@@ -85,18 +85,18 @@ export const serviceBands = [
     ],
     supportTitle: "Tu Net-Flow dowozi",
     support: [
-      "porzadek w katalogu i masowe operacje",
+      "porz\u0105dek w katalogu i masowe operacje",
       "custom pluginy i automatyzacje pod sklep",
-      "integracje z CRM, formularzami i zewnetrznymi systemami",
+      "integracje z CRM, formularzami i zewn\u0119trznymi systemami",
     ],
     tone: "green",
   },
   {
     id: "03",
     eyebrow: "Control layer",
-    title: "Hosting, security i maintenance, ktore zamykaja projekt w jednym standardzie.",
+    title: "Hosting, security i maintenance, kt\u00f3re zamykaj\u0105 projekt w jednym standardzie.",
     description:
-      "High-end nie konczy sie na publikacji. Monitoring, backupy, hardening, logi, aktualizacje i dalszy rozwoj musza dzialac w tym samym standardzie co design i frontend.",
+      "High-end nie ko\u0144czy si\u0119 na publikacji. Monitoring, backupy, hardening, logi, aktualizacje i dalszy rozw\u00f3j musz\u0105 dzia\u0142a\u0107 w tym samym standardzie co design i frontend.",
     bullets: [
       "maintenance, SLA i predictable rollouts",
       "backupy, monitoring, hardening i access control",
@@ -104,9 +104,9 @@ export const serviceBands = [
     ],
     supportTitle: "Efekt dla klienta",
     support: [
-      "mniej paneli, mniej pluginow, mniej chaosu",
-      "szybsze wdrozenia i wyzsza kontrola po starcie",
-      "jedna odpowiedzialnosc za design, build i operations",
+      "mniej paneli, mniej plugin\u00f3w, mniej chaosu",
+      "szybsze wdro\u017cenia i wy\u017csza kontrola po starcie",
+      "jedna odpowiedzialno\u015b\u0107 za design, build i operations",
     ],
     tone: "warm",
   },
@@ -117,13 +117,13 @@ export const caseStudies = [
     name: "Fajna Szafa",
     category: "Fashion commerce / end-to-end delivery",
     summary:
-      "Sklep odziezowy zbudowany od zera: wyglad, struktura, wdrozenie WooCommerce i regularna obsluga contentu w jednym standardzie.",
+      "Sklep odzie\u017cowy zbudowany od zera: wygl\u0105d, struktura, wdro\u017cenie WooCommerce i regularna obs\u0142uga contentu w jednym standardzie.",
     impact:
-      "Sprawny storefront, spojne tresci i operacje marketingowe, ktore nie wygladaja jak doszyte po fakcie.",
+      "Sprawny storefront, sp\u00f3jne tre\u015bci i operacje marketingowe, kt\u00f3re nie wygl\u0105daj\u0105 jak doszyte po fakcie.",
     deliverables: [
       "brand-facing storefront i custom UI direction",
       "content ops i publikacja bez chaosu",
-      "social i marketing support pod sprzedaz",
+      "social i marketing support pod sprzeda\u017c",
     ],
     tags: ["WooCommerce", "Design", "Content ops", "Social media"],
     url: "https://fajnaszafa.pl",
@@ -133,13 +133,13 @@ export const caseStudies = [
     name: "Okazje u Marii",
     category: "Large catalog / operational cleanup",
     summary:
-      "Duzy sklep WooCommerce wymagajacy porzadku w danych, masowych operacji i narzedzi do szybszej pracy na asortymencie.",
+      "Du\u017cy sklep WooCommerce wymagaj\u0105cy porz\u0105dku w danych, masowych operacji i narz\u0119dzi do szybszej pracy na asortymencie.",
     impact:
-      "Mniej chaosu w katalogu, lepsza higiena SEO i realnie szybsze operacje na tysiacach produktow.",
+      "Mniej chaosu w katalogu, lepsza higiena SEO i realnie szybsze operacje na tysi\u0105cach produkt\u00f3w.",
     deliverables: [
       "custom tooling do bulk changes",
       "cleanup taksonomii, nazw i struktur",
-      "workflow pod duzy katalog i SEO hygiene",
+      "workflow pod du\u017cy katalog i SEO hygiene",
     ],
     tags: ["Custom plugins", "Bulk operations", "SEO hygiene", "WooCommerce"],
     url: "https://okazjaumarii.pl/",
@@ -149,9 +149,9 @@ export const caseStudies = [
     name: "Votillo",
     category: "Education platform / process design",
     summary:
-      "Platforma edukacyjna oparta o Tutor LMS, Google Calendar i logike umawiania lekcji z rozdzieleniem rol nauczyciel-uczen.",
+      "Platforma edukacyjna oparta o Tutor LMS, Google Calendar i logik\u0119 umawiania lekcji z rozdzieleniem r\u00f3l nauczyciel-ucze\u0144.",
     impact:
-      "Spojny proces rezerwacji i prowadzenia lekcji, bez recznego spinania kilku narzedzi po stronie administracji.",
+      "Sp\u00f3jny proces rezerwacji i prowadzenia lekcji, bez r\u0119cznego spinania kilku narz\u0119dzi po stronie administracji.",
     deliverables: [
       "booking flow i role permissions",
       "Google Calendar integration",
@@ -165,9 +165,9 @@ export const caseStudies = [
     name: "Net-Flow BIP",
     category: "Public sector / native template + CMS",
     summary:
-      "Natywny szablon BIP z dedykowanym CMS-em, kontrola dostepu i logami zmian przygotowany pod standardy urzedowe.",
+      "Natywny szablon BIP z dedykowanym CMS-em, kontrol\u0105 dost\u0119pu i logami zmian przygotowany pod standardy urz\u0119dowe.",
     impact:
-      "Szybka redakcja tresci przy zachowaniu audytowalnosci, porzadku i bezpieczenstwa w codziennej pracy.",
+      "Szybka redakcja tre\u015bci przy zachowaniu audytowalno\u015bci, porz\u0105dku i bezpiecze\u0144stwa w codziennej pracy.",
     deliverables: [
       "dedykowany CMS i controlled publishing",
       "audit logs i access whitelists",
@@ -203,27 +203,27 @@ export const cmsModules = [
   {
     title: "Builder standard",
     description:
-      "Page builder pod kontrola. Elastycznosc bez niszczenia layoutu i bez pluginowego chaosu.",
+      "Page builder pod kontrol\u0105. Elastyczno\u015b\u0107 bez niszczenia layoutu i bez pluginowego chaosu.",
   },
   {
     title: "Hosting included",
     description:
-      "Monitoring, backupy i wdrozenia zamkniete w jednej warstwie odpowiedzialnosci.",
+      "Monitoring, backupy i wdro\u017cenia zamkni\u0119te w jednej warstwie odpowiedzialno\u015bci.",
   },
   {
     title: "Multi-tenant",
     description:
-      "Wiele serwisow i klientow w jednym systemie, z izolacja danych i standaryzacja procesu.",
+      "Wiele serwis\u00f3w i klient\u00f3w w jednym systemie, z izolacj\u0105 danych i standaryzacj\u0105 procesu.",
   },
   {
     title: "RBAC + logs",
     description:
-      "Role, uprawnienia i logi zmian przygotowane pod realna kontrole operacyjna.",
+      "Role, uprawnienia i logi zmian przygotowane pod realn\u0105 kontrol\u0119 operacyjn\u0105.",
   },
   {
     title: "Automation layer",
     description:
-      "Webhooki, integracje i procesy po publikacji lub zakupie, bez przepinania miedzy piecioma panelami.",
+      "Webhooki, integracje i procesy po publikacji lub zakupie, bez przepinania mi\u0119dzy pi\u0119cioma panelami.",
   },
 ];
 
@@ -232,25 +232,25 @@ export const deliverySteps = [
     step: "01",
     title: "Diagnose the business reality",
     description:
-      "Najpierw ustalamy, co ma sprzedawac, co ma byc zautomatyzowane i gdzie dzisiaj ginie czas albo odpowiedzialnosc.",
+      "Najpierw ustalamy, co ma sprzedawa\u0107, co ma by\u0107 zautomatyzowane i gdzie dzisiaj ginie czas albo odpowiedzialno\u015b\u0107.",
   },
   {
     step: "02",
     title: "Build the visual and system direction",
     description:
-      "Tworzymy kierunek wizualny, uklad tresci i decyzje technologiczne pod efekt, a nie pod przypadkowa mode.",
+      "Tworzymy kierunek wizualny, uk\u0142ad tre\u015bci i decyzje technologiczne pod efekt, a nie pod przypadkow\u0105 mod\u0119.",
   },
   {
     step: "03",
     title: "Ship, integrate, harden",
     description:
-      "Wdrozenie, integracje, testy, performance i warstwa operacyjna, ktora ma wytrzymac codzienna prace zespolu.",
+      "Wdro\u017cenie, integracje, testy, performance i warstwa operacyjna, kt\u00f3ra ma wytrzyma\u0107 codzienn\u0105 prac\u0119 zespo\u0142u.",
   },
   {
     step: "04",
     title: "Operate with one standard",
     description:
-      "Po starcie projekt nie ma sie rozsypywac. Utrzymanie, monitoring i dalszy rozwoj robimy w tym samym standardzie.",
+      "Po starcie projekt nie ma si\u0119 rozsypywa\u0107. Utrzymanie, monitoring i dalszy rozw\u00f3j robimy w tym samym standardzie.",
   },
 ];
 
@@ -274,9 +274,9 @@ export const stackGroups = [
 ];
 
 export const contactChecklist = [
-  "czym zajmuje sie firma i co strona ma sprzedawac",
-  "link do obecnego serwisu albo materialow",
-  "termin, budzet i co dzisiaj najbardziej boli",
+  "czym zajmuje si\u0119 firma i co strona ma sprzedawa\u0107",
+  "link do obecnego serwisu albo materia\u0142\u00f3w",
+  "termin, bud\u017cet i co dzisiaj najbardziej boli",
 ];
 
 export const socialLinks = [

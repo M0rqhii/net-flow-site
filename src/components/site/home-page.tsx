@@ -1,6 +1,5 @@
 "use client";
 
-import Image from "next/image";
 import { motion } from "framer-motion";
 import {
   ArrowRight,
@@ -28,6 +27,11 @@ import {
   socialLinks,
   stackGroups,
 } from "@/data/site-content";
+import {
+  CasePreviewVisual,
+  CmsPreviewVisual,
+  HeroSystemVisual,
+} from "./mockups";
 import { Reveal } from "./reveal";
 import { SiteFooter } from "./site-footer";
 import { SiteHeader } from "./site-header";
@@ -147,12 +151,12 @@ export function HomePage() {
                         <br />
                         systemy,
                         <br />
-                        <span className="text-gradient">ktore</span>
+                        <span className="text-gradient">kt\u00f3re</span>
                         <br />
-                        <span className="text-gradient">wygladaja</span>
+                        <span className="text-gradient">wygl\u0105daj\u0105</span>
                         <br />
                         <span className="text-gradient">premium</span>
-                        <br />i dzialaja bez
+                        <br />i dzia\u0142aj\u0105 bez
                         <br />
                         chaosu.
                       </h1>
@@ -165,18 +169,18 @@ export function HomePage() {
                     </span>
                     <h1 className="font-display mt-8 max-w-xl text-[3.9rem] leading-[0.92] font-semibold tracking-[-0.07em] text-white sm:text-[5rem]">
                       Budujemy strony i systemy,
-                      <span className="text-gradient block">ktore wygladaja premium</span>
-                      i dzialaja bez chaosu.
+                      <span className="text-gradient block">kt\u00f3re wygl\u0105daj\u0105 premium</span>
+                      i dzia\u0142aj\u0105 bez chaosu.
                     </h1>
                   </div>
 
                   <div className="mt-10 grid gap-8 xl:grid-cols-[minmax(0,1fr)_13rem]">
                     <div>
                       <p className="max-w-2xl text-lg leading-8 text-white/68 sm:text-xl">
-                        Net-Flow laczy custom art direction, web development,
-                        e-commerce, integracje i warstwe operacyjna w jednym
-                        systemie odpowiedzialnosci. Chodzi o to, zeby marka
-                        wygladala drogo, a projekt nie rozsypal sie po starcie.
+                        Net-Flow \u0142\u0105czy custom art direction, web development,
+                        e-commerce, integracje i warstw\u0119 operacyjn\u0105 w jednym
+                        systemie odpowiedzialno\u015bci. Chodzi o to, \u017ceby marka
+                        wygl\u0105da\u0142a drogo, a projekt nie rozsypa\u0142 si\u0119 po starcie.
                       </p>
 
                       <div className="mt-10 flex flex-col gap-4 sm:flex-row">
@@ -184,7 +188,7 @@ export function HomePage() {
                           href="mailto:kontakt@net-flow.pl?subject=Nowy%20projekt%20-%20Net-Flow"
                           className="inline-flex items-center justify-center gap-2 rounded-full bg-white px-6 py-4 text-sm font-semibold text-slate-950 hover:-translate-y-0.5 hover:shadow-[0_24px_70px_rgba(255,255,255,0.16)]"
                         >
-                          Umow rozmowe
+                          Um\u00f3w rozmow\u0119
                           <ArrowUpRight size={16} />
                         </a>
                         <a
@@ -204,7 +208,7 @@ export function HomePage() {
                         </p>
                         <p className="mt-4 text-sm leading-7 text-white/72">
                           Jedna marka, jeden standard wykonania, jedna warstwa
-                          odpowiedzialnosci.
+                          odpowiedzialno\u015bci.
                         </p>
                       </div>
                       <div className="glass-panel rounded-[1.7rem] p-5">
@@ -212,7 +216,7 @@ export function HomePage() {
                           Built for
                         </p>
                         <p className="mt-4 text-sm leading-7 text-white/72">
-                          firmy, ktore chca wygladac premium i dzialac bez
+                          firmy, kt\u00f3re chc\u0105 wygl\u0105da\u0107 premium i dzia\u0142a\u0107 bez
                           pluginowego teatru po publikacji.
                         </p>
                       </div>
@@ -238,118 +242,10 @@ export function HomePage() {
               </Reveal>
 
               <Reveal>
-                <div className="relative mx-auto w-full max-w-[38rem]">
+                <div className="relative mx-auto w-full max-w-[42rem]">
                   <div className="absolute -left-2 top-14 h-56 w-56 rounded-full bg-[rgba(25,183,255,0.18)] blur-3xl" />
                   <div className="absolute right-0 top-0 h-64 w-64 rounded-full bg-[rgba(52,243,190,0.14)] blur-3xl" />
-                  <div className="glass-panel hero-panel-grid relative isolate overflow-hidden rounded-[2.9rem] p-6 sm:p-8">
-                    <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(255,255,255,0.04),transparent_36%),radial-gradient(circle_at_18%_18%,rgba(25,183,255,0.14),transparent_28%),radial-gradient(circle_at_85%_20%,rgba(52,243,190,0.12),transparent_22%)]" />
-                    <div className="absolute inset-x-8 top-[7.25rem] h-px bg-white/10" />
-                    <div className="absolute inset-x-8 bottom-[7rem] h-px bg-white/10" />
-                    <div className="absolute bottom-8 left-8 top-8 w-px bg-white/10" />
-                    <div className="absolute bottom-8 right-8 top-8 w-px bg-white/10" />
-
-                    <div className="relative flex flex-wrap gap-3">
-                      <span className="rounded-full border border-white/10 bg-white/6 px-3 py-1.5 font-mono text-[0.62rem] uppercase tracking-[0.24em] text-white/52">
-                        premium web surfaces
-                      </span>
-                      <span className="rounded-full border border-white/10 bg-white/6 px-3 py-1.5 font-mono text-[0.62rem] uppercase tracking-[0.24em] text-white/52">
-                        commerce ops
-                      </span>
-                      <span className="rounded-full border border-white/10 bg-white/6 px-3 py-1.5 font-mono text-[0.62rem] uppercase tracking-[0.24em] text-white/52">
-                        system control
-                      </span>
-                    </div>
-
-                    <motion.div
-                      className="absolute left-8 top-24 w-[36%] rounded-[1.6rem] border border-white/10 bg-[rgba(255,255,255,0.06)] p-4 shadow-[0_18px_40px_rgba(0,0,0,0.18)] backdrop-blur-md"
-                      animate={{ y: [0, -10, 0] }}
-                      transition={{ duration: 8.2, repeat: Infinity, ease: "easeInOut" }}
-                    >
-                      <p className="font-mono text-[0.62rem] uppercase tracking-[0.24em] text-white/34">
-                        Build layer
-                      </p>
-                      <p className="mt-3 text-sm leading-6 text-white/76">
-                        custom UI, editorial layouts, launch-ready frontends
-                      </p>
-                    </motion.div>
-
-                    <motion.div
-                      className="absolute right-8 top-28 w-[31%] rounded-[1.6rem] border border-white/10 bg-[rgba(255,255,255,0.05)] p-4 shadow-[0_18px_40px_rgba(0,0,0,0.18)] backdrop-blur-md"
-                      animate={{ y: [0, -14, 0] }}
-                      transition={{ duration: 7.4, repeat: Infinity, ease: "easeInOut" }}
-                    >
-                      <p className="font-mono text-[0.62rem] uppercase tracking-[0.24em] text-white/34">
-                        Control layer
-                      </p>
-                      <p className="mt-3 text-sm leading-6 text-white/76">
-                        monitoring, integrations, maintenance and rollout logic
-                      </p>
-                    </motion.div>
-
-                    <div className="relative mx-auto mt-24 flex w-full max-w-[19rem] flex-col items-center rounded-[2.4rem] border border-white/10 bg-[rgba(7,19,29,0.84)] px-7 py-9 text-center shadow-[0_36px_100px_rgba(0,0,0,0.36)] backdrop-blur-xl">
-                      <Image
-                        src="/brand/logo-symbol.png"
-                        alt="Net-Flow symbol"
-                        width={260}
-                        height={260}
-                        priority
-                        className="h-40 w-40 object-contain mix-blend-screen"
-                      />
-                      <p className="font-mono mt-3 text-[0.62rem] uppercase tracking-[0.28em] text-white/34">
-                        flagship product
-                      </p>
-                      <p className="font-display mt-4 text-[2rem] leading-none text-white">
-                        NetFlow-CMS
-                      </p>
-                      <p className="mt-4 text-sm leading-7 text-white/62">
-                        all-in-one standard dla klientow, ktorzy potrzebuja mniej
-                        paneli i wiecej operacyjnej kontroli
-                      </p>
-                      <span className="mt-6 rounded-full border border-emerald-400/16 bg-emerald-400/8 px-3 py-1.5 font-mono text-[0.62rem] uppercase tracking-[0.22em] text-emerald-200/84">
-                        ~70% ready / launch in progress
-                      </span>
-                    </div>
-
-                    <motion.div
-                      className="absolute bottom-10 left-8 w-[34%] rounded-[1.6rem] border border-white/10 bg-[rgba(255,255,255,0.06)] p-4 shadow-[0_18px_40px_rgba(0,0,0,0.18)] backdrop-blur-md"
-                      animate={{ y: [0, -9, 0] }}
-                      transition={{ duration: 9.1, repeat: Infinity, ease: "easeInOut" }}
-                    >
-                      <p className="font-mono text-[0.62rem] uppercase tracking-[0.24em] text-white/34">
-                        Readiness
-                      </p>
-                      <div className="mt-4 space-y-3">
-                        {[
-                          { label: "Performance", value: 92 },
-                          { label: "Conversions", value: 89 },
-                          { label: "Control", value: 96 },
-                        ].map((item) => (
-                          <div key={item.label}>
-                            <div className="mb-1 flex items-center justify-between text-[0.72rem] text-white/54">
-                              <span>{item.label}</span>
-                              <span>{item.value}%</span>
-                            </div>
-                            <div className="h-1.5 rounded-full bg-white/8">
-                              <div
-                                className="h-full rounded-full bg-[linear-gradient(90deg,var(--blue),var(--green))]"
-                                style={{ width: `${item.value}%` }}
-                              />
-                            </div>
-                          </div>
-                        ))}
-                      </div>
-                    </motion.div>
-
-                    <div className="absolute bottom-8 right-8 w-[32%] rounded-[1.7rem] border border-white/10 bg-[rgba(255,255,255,0.05)] p-4 backdrop-blur-md">
-                      <p className="font-mono text-[0.62rem] uppercase tracking-[0.24em] text-white/34">
-                        Signature promise
-                      </p>
-                      <p className="mt-3 text-sm leading-6 text-white/76">
-                        premium wyglad, realna kontrola i mniej technologicznego
-                        balaganu po starcie
-                      </p>
-                    </div>
-                  </div>
+                  <HeroSystemVisual />
                 </div>
               </Reveal>
             </div>
@@ -378,12 +274,12 @@ export function HomePage() {
               <div className="max-w-2xl">
                 <span className="section-kicker">Design doctrine</span>
                 <h2 className="font-display mt-6 text-4xl leading-[0.98] font-semibold tracking-[-0.05em] text-white sm:text-5xl lg:text-[3.65rem]">
-                  High-end nie oznacza u nas glosniejszych efektow.
+                  High-end nie oznacza u nas g\u0142o\u015bniejszych efekt\u00f3w.
                 </h2>
                 <p className="mt-5 text-base leading-8 text-white/64 sm:text-lg">
-                  Oznacza lepsza selekcje, ostrzejsza hierarchie, mocniejsza
-                  typografie i spokoj operacyjny po starcie. Jesli premium znika po
-                  pierwszym foldzie, to nie bylo premium.
+                  Oznacza lepsz\u0105 selekcj\u0119, ostrzejsz\u0105 hierarchi\u0119, mocniejsz\u0105
+                  typografi\u0119 i spok\u00f3j operacyjny po starcie. Je\u015bli premium znika po
+                  pierwszym foldzie, to nie by\u0142o premium.
                 </p>
 
                 <div className="glass-panel mt-10 rounded-[2.2rem] p-7">
@@ -425,8 +321,8 @@ export function HomePage() {
             <Reveal>
               <SectionIntro
                 eyebrow="Service architecture"
-                title="Oferta zaprojektowana jak system, nie jak lista przypadkowych uslug."
-                description="Zamiast wrzucac wszystko do jednego worka, dzielimy projekt na warstwy: marka i surface, commerce i automations, oraz control layer po starcie. To daje drozszy efekt wizualny i lepsza odpowiedzialnosc wykonawcza."
+                title="Oferta zaprojektowana jak system, nie jak lista przypadkowych us\u0142ug."
+                description="Zamiast wrzuca\u0107 wszystko do jednego worka, dzielimy projekt na warstwy: marka i surface, commerce i automations oraz control layer po starcie. To daje dro\u017cszy efekt wizualny i lepsz\u0105 odpowiedzialno\u015b\u0107 wykonawcz\u0105."
                 light
               />
             </Reveal>
@@ -484,8 +380,8 @@ export function HomePage() {
                                 Why it feels premium
                               </p>
                               <p className="mt-4 text-sm leading-7 text-[var(--text-dark)]">
-                                Kazda z tych warstw eliminuje cos, co zwykle odbiera
-                                projektom klase: generyczny layout, balagan danych albo
+                                Ka\u017cda z tych warstw eliminuje co\u015b, co zwykle odbiera
+                                projektom klas\u0119: generyczny layout, ba\u0142agan danych albo
                                 operacyjny chaos po publikacji.
                               </p>
                             </div>
@@ -495,8 +391,8 @@ export function HomePage() {
                                 {band.id}
                               </p>
                               <p className="mt-3 text-sm leading-7 text-[var(--text-dark-muted)]">
-                                Net-Flow sklada warstwy projektu w jeden standard
-                                wykonania, zamiast rozrzucac odpowiedzialnosc po kilku
+                                Net-Flow sk\u0142ada warstwy projektu w jeden standard
+                                wykonania, zamiast rozrzuca\u0107 odpowiedzialno\u015b\u0107 po kilku
                                 podwykonawcach i pluginach.
                               </p>
                             </div>
@@ -515,8 +411,8 @@ export function HomePage() {
           <Reveal>
             <SectionIntro
               eyebrow="Selected work"
-              title="Realizacje pokazane bardziej jak strategie wdrozenia niz zwykle karty portfolio."
-              description="Tu liczy sie nie tylko estetyka. Pokazujemy, jak Net-Flow laczy surface, system i operacje po starcie w rzeczywistych projektach."
+              title="Realizacje pokazane bardziej jak strategie wdro\u017cenia ni\u017c zwyk\u0142e karty portfolio."
+              description="Tu liczy si\u0119 nie tylko estetyka. Pokazujemy, jak Net-Flow \u0142\u0105czy surface, system i operacje po starcie w rzeczywistych projektach."
             />
           </Reveal>
 
@@ -569,60 +465,12 @@ export function HomePage() {
                     rel="noreferrer"
                     className="mt-8 inline-flex items-center gap-2 rounded-full bg-white px-5 py-3 text-sm font-semibold text-slate-950 hover:-translate-y-0.5"
                   >
-                    Otworz realizacje
+                    Otw\u00f3rz realizacj\u0119
                     <ArrowUpRight size={16} />
                   </a>
                 </div>
 
-                <div className="relative min-h-[24rem] rounded-[2.4rem] border border-white/10 bg-[linear-gradient(180deg,rgba(255,255,255,0.05),rgba(255,255,255,0.02))] p-6">
-                  <div className="absolute inset-0 bg-[radial-gradient(circle_at_25%_25%,rgba(25,183,255,0.14),transparent_26%),radial-gradient(circle_at_78%_18%,rgba(52,243,190,0.14),transparent_24%)]" />
-                  <div className="relative flex h-full flex-col justify-between">
-                    <div className="grid gap-4 sm:grid-cols-2">
-                      <div className="rounded-[1.7rem] border border-white/10 bg-[rgba(255,255,255,0.06)] p-5">
-                        <p className="font-mono text-[0.64rem] uppercase tracking-[0.24em] text-white/34">
-                          Surface
-                        </p>
-                        <p className="mt-3 text-sm leading-7 text-white/76">
-                          storefront, storytelling i premium merchandising
-                        </p>
-                      </div>
-                      <div className="rounded-[1.7rem] border border-white/10 bg-[rgba(255,255,255,0.06)] p-5">
-                        <p className="font-mono text-[0.64rem] uppercase tracking-[0.24em] text-white/34">
-                          Ops
-                        </p>
-                        <p className="mt-3 text-sm leading-7 text-white/76">
-                          content publishing i marketing support w jednym rytmie
-                        </p>
-                      </div>
-                    </div>
-
-                    <div className="mx-auto flex w-full max-w-[16rem] flex-col items-center rounded-[2.1rem] border border-white/10 bg-[rgba(7,19,29,0.72)] px-6 py-7 text-center shadow-[0_28px_70px_rgba(0,0,0,0.32)] backdrop-blur-xl">
-                      <Image
-                        src="/brand/logo-symbol.png"
-                        alt="Net-Flow symbol"
-                        width={180}
-                        height={180}
-                        className="h-28 w-28 object-contain mix-blend-screen"
-                      />
-                      <p className="font-display mt-3 text-2xl text-white">
-                        Outcome stack
-                      </p>
-                      <p className="mt-2 text-sm leading-7 text-white/62">
-                        design, commerce i operations zamkniete w jednej realizacji
-                      </p>
-                    </div>
-
-                    <div className="rounded-[1.8rem] border border-white/10 bg-[rgba(255,255,255,0.05)] p-5">
-                      <p className="font-mono text-[0.64rem] uppercase tracking-[0.24em] text-white/34">
-                        Why this case matters
-                      </p>
-                      <p className="mt-3 text-sm leading-7 text-white/78">
-                        Pokazuje ten model pracy, o ktory tu chodzi: nie tylko
-                        wdrozenie, ale tez caly porzadek po nim.
-                      </p>
-                    </div>
-                  </div>
-                </div>
+                <CasePreviewVisual />
               </div>
             </motion.article>
 
@@ -699,12 +547,12 @@ export function HomePage() {
                 </div>
 
                 <h2 className="font-display mt-7 text-4xl leading-[0.98] font-semibold tracking-[-0.05em] text-white sm:text-5xl lg:text-[3.7rem]">
-                  NetFlow-CMS nie ma byc kolejnym builderem.
+                  NetFlow-CMS nie ma by\u0107 kolejnym builderem.
                 </h2>
                 <p className="mt-6 max-w-2xl text-base leading-8 text-white/64 sm:text-lg">
-                  To produktowy standard, ktory ma zamknac content, builder,
+                  To produktowy standard, kt\u00f3ry ma zamkn\u0105\u0107 content, builder,
                   hosting, maintenance i control layer w jednej platformie. Bez
-                  przeskakiwania miedzy pluginami, hostingiem i piecioma panelami.
+                  przeskakiwania mi\u0119dzy pluginami, hostingiem i pi\u0119cioma panelami.
                 </p>
 
                 <div className="mt-8 space-y-4">
@@ -725,56 +573,19 @@ export function HomePage() {
               </div>
 
               <div className="grid gap-4 lg:grid-cols-2">
-                <div className="rounded-[2.2rem] border border-white/10 bg-[rgba(255,255,255,0.06)] p-6 lg:col-span-2">
-                  <div className="grid gap-6 lg:grid-cols-[0.78fr_1.22fr] lg:items-center">
-                    <div className="flex items-center justify-center rounded-[2rem] border border-white/10 bg-[rgba(7,19,29,0.78)] p-7">
-                      <div className="text-center">
-                        <Image
-                          src="/brand/logo-symbol.png"
-                          alt="Net-Flow symbol"
-                          width={210}
-                          height={210}
-                          className="mx-auto h-32 w-32 object-contain mix-blend-screen"
-                        />
-                        <p className="font-display mt-4 text-[2rem] text-white">
-                          NetFlow-CMS
-                        </p>
-                        <p className="mt-2 text-sm leading-7 text-white/62">
-                          operating system for controlled digital rollouts
-                        </p>
-                      </div>
-                    </div>
-
-                    <div className="grid gap-3 sm:grid-cols-3">
-                      {[
-                        "tenant isolation",
-                        "RBAC",
-                        "audit logs",
-                        "hosting",
-                        "builder",
-                        "automation",
-                      ].map((item) => (
-                        <div
-                          key={item}
-                          className="rounded-[1.5rem] border border-white/10 bg-[rgba(255,255,255,0.04)] px-4 py-4 text-center text-xs uppercase tracking-[0.18em] text-white/62"
-                        >
-                          {item}
-                        </div>
-                      ))}
-                    </div>
-                  </div>
-                </div>
+                <CmsPreviewVisual />
 
                 {cmsModules.map((module, index) => {
-                  const Icon = moduleIcons[index];
-
                   return (
                     <div
                       key={module.title}
                       className="rounded-[2rem] border border-white/10 bg-[rgba(255,255,255,0.05)] p-6"
                     >
                       <div className="inline-flex h-12 w-12 items-center justify-center rounded-2xl border border-white/10 bg-white/6 text-white/84">
-                        <Icon size={18} />
+                        {(() => {
+                          const Icon = moduleIcons[index];
+                          return <Icon size={18} />;
+                        })()}
                       </div>
                       <h3 className="font-display mt-5 text-[1.9rem] leading-none text-white">
                         {module.title}
@@ -796,8 +607,8 @@ export function HomePage() {
               <div className="xl:sticky xl:top-28">
                 <SectionIntro
                   eyebrow="Delivery model"
-                  title="Premium execution to proces, ktory ma wytrzymac spotkanie z rzeczywistoscia."
-                  description="Ukladamy projekt od diagnozy problemu, przez kierunek artystyczny i development, po kontrolowana operacje po wdrozeniu. To dlatego efekt koncowy ma szanse naprawde wygladac i dzialac drogo."
+                  title="Premium execution to proces, kt\u00f3ry ma wytrzyma\u0107 spotkanie z rzeczywisto\u015bci\u0105."
+                  description="Uk\u0142adamy projekt od diagnozy problemu, przez kierunek artystyczny i development, po kontrolowan\u0105 operacj\u0119 po wdro\u017ceniu. To dlatego efekt ko\u0144cowy ma szans\u0119 naprawd\u0119 wygl\u0105da\u0107 i dzia\u0142a\u0107 drogo."
                 />
 
                 <div className="glass-panel mt-8 rounded-[2.2rem] p-7">
@@ -805,8 +616,8 @@ export function HomePage() {
                     Working rule
                   </p>
                   <p className="mt-4 text-sm leading-7 text-white/74">
-                    Im mniej przypadkowosci w decyzjach projektowych, tym bardziej
-                    luksusowy jest odbior koncowy. High-end to porzadek, nie chaos
+                    Im mniej przypadkowo\u015bci w decyzjach projektowych, tym bardziej
+                    luksusowy jest odbi\u00f3r ko\u0144cowy. High-end to porz\u0105dek, nie chaos
                     z dobrym gradientem.
                   </p>
                 </div>
@@ -873,12 +684,12 @@ export function HomePage() {
                 <div>
                   <span className="section-kicker">Start a project</span>
                   <h2 className="font-display mt-6 max-w-4xl text-4xl leading-[0.98] font-semibold tracking-[-0.05em] text-white sm:text-5xl lg:text-[3.9rem]">
-                    Jesli chcesz strony, ktora ma wygladac bezczelnie dobrze i
-                    dzialac bez wstydu po publikacji, napisz do Net-Flow.
+                    Je\u015bli chcesz strony, kt\u00f3ra ma wygl\u0105da\u0107 bezczelnie dobrze i
+                    dzia\u0142a\u0107 bez wstydu po publikacji, napisz do Net-Flow.
                   </h2>
                   <p className="mt-6 max-w-2xl text-base leading-8 text-white/68 sm:text-lg">
-                    Najlepszy start to kilka konkretow o firmie, obecnym serwisie i
-                    miejscu, w ktorym dzisiaj wycieka czas albo sprzedaz.
+                    Najlepszy start to kilka konkret\u00f3w o firmie, obecnym serwisie i
+                    miejscu, w kt\u00f3rym dzisiaj wycieka czas albo sprzeda\u017c.
                   </p>
 
                   <div className="mt-8 grid gap-3 sm:grid-cols-3">
@@ -920,7 +731,7 @@ export function HomePage() {
                       href="#services"
                       className="inline-flex items-center gap-2 rounded-full border border-white/12 px-5 py-3 text-sm font-semibold text-white/82 hover:border-white/22 hover:bg-white/6"
                     >
-                      Wroc do oferty
+                      Wr\u00f3\u0107 do oferty
                       <ArrowRight size={16} />
                     </a>
                   </div>

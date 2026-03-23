@@ -20,12 +20,13 @@ const ibmPlexMono = IBM_Plex_Mono({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://net-flow.pl"),
+  applicationName: "Net-Flow",
   title: {
     default: "Net-Flow | Premium web, commerce and digital systems",
     template: "%s | Net-Flow",
   },
   description:
-    "Net-Flow projektuje i wdraza strony firmowe, e-commerce, integracje i warstwe operacyjna, ktora porzadkuje biznes zamiast dodawac kolejny chaos.",
+    "Net-Flow projektuje i wdra\u017ca strony firmowe, e-commerce, integracje i warstw\u0119 operacyjn\u0105, kt\u00f3ra porz\u0105dkuje biznes zamiast dodawa\u0107 kolejny chaos.",
   keywords: [
     "Net-Flow",
     "strony internetowe",
@@ -39,25 +40,24 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Net-Flow | Premium web, commerce and digital systems",
     description:
-      "Strony, sklepy i systemy budowane z naciskiem na design, performance i porzadek operacyjny.",
+      "Strony, sklepy i systemy budowane z naciskiem na design, performance i porz\u0105dek operacyjny.",
     url: "https://net-flow.pl",
     siteName: "Net-Flow",
     locale: "pl_PL",
     type: "website",
-    images: [
-      {
-        url: "/brand/logo-symbol.png",
-        width: 768,
-        height: 768,
-        alt: "Net-Flow symbol",
-      },
-    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Net-Flow | Premium web, commerce and digital systems",
+    description:
+      "Design, commerce i operational control zamkni\u0119te w jednym standardzie wykonania.",
   },
   icons: {
     icon: "/brand/logo-symbol.png",
     shortcut: "/brand/logo-symbol.png",
     apple: "/brand/logo-symbol.png",
   },
+  manifest: "/manifest.webmanifest",
   alternates: {
     canonical: "https://net-flow.pl",
   },
